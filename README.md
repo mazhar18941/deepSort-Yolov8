@@ -24,12 +24,11 @@ Then, download the CNN checkpoint file from
 [here](https://drive.google.com/open?id=18fKzfqnqhqW3s9zwsCbnVJ5XF2JFeqMp).
 
 
-```
+
 We have replaced the appearance descriptor with a custom deep convolutional
 neural network (see below).
 
 ## Running the tracker
-
 
 ```
 python app.py --descriptor "path to descriptor" --object-detector "path to yolov8" --video "path to video"
