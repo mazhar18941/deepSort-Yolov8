@@ -34,7 +34,9 @@ neural network (see below).
 python app.py --descriptor "path to descriptor" --object-detector "path to yolov8" --video "path to video"
 ```
 Only "car" class is being tracked in code. In order to track other class like "person" change code lne no 44 in app.py to following:
+
 if result.names[box.cls[0].item()] == 'person':
+
 Check `python app.py -h` for an overview of available options.
 
 
