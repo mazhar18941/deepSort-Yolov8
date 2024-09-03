@@ -99,7 +99,7 @@ def main(min_confidence, nms_max_overlap, max_cosine_distance,
 
             # Break the loop
         else:
-            continue
+            break
 
     cap.release()
     cv2.destroyAllWindows()
